@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    background: #f0f2f5;
+}
+nav > .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 72px;
+    padding: 20px 30px 10px 30px;
+    box-shadow: 1px 1px 3px grey;
+}
+    nav > .navbar > .right-navbar,.left-navbar{
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      gap:32px
+    }    
+
+nav > .navbar> .left-navbar{
+    padding-left: 48px;
+    display: flex;
+    gap: 0.5rem;
+}
+nav > .navbar > .left-navbar>.logo >img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+nav >.navbar> .left-navbar> .input {
+display: flex;
+align-items: center;
+width: 100%;
+border-radius: 4px;
+gap: 1rem;
+height: 2rem;
+
+}
+nav .navbar .left-navbar .input .search{
+    width:20rem;
+    height:2rem ;
+    border: none;
+    background:transparent; 
+    margin-right: 2rem; 
+    
+
+}
+
+ nav .navbar .left-navbar .input .fa-solid {
+    color: grey;
+    margin-left: 32px;
+    width: 20 rem; 
+    
+ }
+    nav>.navbar>.right-navbar> .down>img{
+        height: 2.7rem;
+        width: 2.7rem;
+        border-radius: 100%;
+       
+    }
+ nav > .navbar > .right-navbar> .home,
+ nav > .navbar > .right-navbar> .network,
+ nav > .navbar > .right-navbar> .jobs,
+ nav > .navbar > .right-navbar> .message,
+ nav > .navbar > .right-navbar> .notification,
+ nav > .navbar > .right-navbar> .down{
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     gap: 0.5rem;
+     cursor: pointer;
+     font-size: 20px;
+    color: grey}
+     
+nav > .navbar > .right-navbar> .home:hover,
+ nav > .navbar > .right-navbar> .network:hover,
+ nav > .navbar > .right-navbar> .jobs:hover,
+ nav > .navbar > .right-navbar> .message:hover,
+ nav > .navbar > .right-navbar> .notification:hover,
+ nav > .navbar > .right-navbar> .down:hover
+ {
+     color: #000;
+ }
+
+   .navbar a {
+     text-decoration: none;
+     color: grey;
+     text-align: center;
+     cursor: pointer;
+
+   } 
+   .navbar a:hover{
+    color: #000;
+   }
